@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 6px;
+}
+
+.header__logo {
+  display: flex;
+  height: 27px;
+  gap: 6px;
+}
+
+.header__logo-img {
+  height: 100%;
+}
+
+.header__plus {
+  margin-left: auto;
+}
+
+.header__user {
+  appearance: none;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.header__hamburgerMenu {
+  appearance: none;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.header__hamburgerMenu-img {
+ justify-content: flex-end;
+}
