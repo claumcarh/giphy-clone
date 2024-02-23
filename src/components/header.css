@@ -36,3 +36,77 @@
 .header__hamburgerMenu-img {
  justify-content: flex-end;
 }
+
+.nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #6b56fa;
+  visibility: hidden;
+}
+
+.nav--shown {
+  visibility: visible;
+}
+
+.nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__item {
+  padding: 12px 12px 0;
+}
+
+.nav__item--categories {
+  background: linear-gradient(0deg, #bd4ccd 0%, #e546b7 100%);
+}
+
+.nav__item--stickers {
+  background: linear-gradient(0deg, #9347c4 0%, #a843b8 100%);
+}
+
+.nav__item--apps {
+  background: linear-gradient(0deg, #7042b9 0%, #823eae 100%);
+}
+
+.nav__item--about {
+  background: linear-gradient(0deg, #5b3aa5 0%, #743697 100%);
+}
+
+.nav__sublist {
+  column-count: 2;
+  list-style: none;
+  text-align: left;
+  padding: 2px;
+  padding: 12px;
+}
+
+.nav__sublist-title {
+  font-family: interface, "Helvetica Neue", helvetica, sans-serif;
+  color: #ffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+}
+
+.nav__sublist-item {
+  font-family: interface, "Helvetica Neue", helvetica, sans-serif;
+  color: #ffff;
+  opacity: 0.8;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 38px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  column-count: 2;
+}
+
+.footer {
+  background: linear-gradient(0deg, #413495 0%, #4e328e 100%);
+  color: #ffffff;
+}
+
